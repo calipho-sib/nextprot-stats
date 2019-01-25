@@ -37,6 +37,14 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <!-- tutorial: https://developers.google.com/protocol-buffers/docs/javatutorial
+          (Note: to generate class you have to install a compiler of the same version as protobuf-java lib
+          (see also https://developers.google.com/protocol-buffers/docs/downloads) -->
+        <dependency>
+            <groupId>com.google.protobuf</groupId>
+            <artifactId>protobuf-java</artifactId>
+            <version>3.6.1</version>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
