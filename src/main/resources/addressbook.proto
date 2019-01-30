@@ -1,6 +1,6 @@
 syntax = "proto3";
 package nextprot;
-option java_package = "org.nextprot.stats.domain";
+option java_package = "example.domain";
 option java_outer_classname = "AddressBook";
 
 // how to compile: protoc --java_out=src/main/java src/main/resources/addressbook.proto

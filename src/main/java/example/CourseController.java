@@ -1,8 +1,8 @@
-package org.nextprot.stats;
+package example;
 
 import io.swagger.annotations.ApiOperation;
-import org.nextprot.stats.domain.AddressBook.Course;
-import org.nextprot.stats.domain.CourseRepository;
+import example.domain.AddressBook;
+import example.domain.CourseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,7 +17,7 @@ public class CourseController {
 
 	@RequestMapping(path="/courses/{id}", method = RequestMethod.GET, produces = { "application/json", "application/x-protobuf"})
 	@ApiOperation("Returns the requested course.")
-	public Course protoBufCustomer(@PathVariable Integer id) {
+	public AddressBook.Course protoBufCustomer(@PathVariable Integer id) {
 
 		return courseRepo.getCourse(id);
 	}

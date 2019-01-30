@@ -1,4 +1,4 @@
-package org.nextprot.stats.domain;
+package example.domain;
 
 import java.util.Map;
 
