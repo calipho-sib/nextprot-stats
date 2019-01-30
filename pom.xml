@@ -37,6 +37,13 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <!-- Spring Test, JUnit, Hamcrest, and Mockito automatically included -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
         <!-- tutorial: https://developers.google.com/protocol-buffers/docs/javatutorial
           (Note: to generate class you have to install a compiler of the same version as protobuf-java lib
           (see also https://developers.google.com/protocol-buffers/docs/downloads) -->
