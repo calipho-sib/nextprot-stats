@@ -1,9 +1,9 @@
 syntax = "proto3";
-package nextprot;
+package example;
 option java_package = "example.domain";
 option java_outer_classname = "AddressBook";
 
-// how to compile: protoc --java_out=src/main/java src/main/resources/addressbook.proto
+// how to compile: protoc --java_out=src/main/java src/main/resources/example/addressbook.proto
 
 message Course {
     int32 id = 1;

@@ -1,0 +1,14 @@
+syntax = "proto3";
+package nextprot;
+option java_package = "org.nextprot.stats.publication";
+option java_outer_classname = "PublicationStatistics";
+
+// how to compile: protoc --java_out=src/main/java src/main/resources/protos/publication-stats.proto
+
+message PublicationStats {
+    int64 id = 1;
+    bool is_cited = 2;
+    bool is_large_scale = 3;
+    bool is_curated = 4;
+    bool is_computed = 5;
+}
