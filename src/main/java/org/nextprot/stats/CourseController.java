@@ -1,6 +1,5 @@
 package org.nextprot.stats;
 
-import com.googlecode.protobuf.format.JsonFormat;
 import io.swagger.annotations.ApiOperation;
 import org.nextprot.stats.domain.AddressBook.Course;
 import org.nextprot.stats.domain.CourseRepository;
