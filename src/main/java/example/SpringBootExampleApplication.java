@@ -13,6 +13,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
+// http://localhost:8081/swagger-ui.html#/
 // https://www.baeldung.com/spring-boot
 @SpringBootApplication
 public class SpringBootExampleApplication {
@@ -46,6 +47,7 @@ public class SpringBootExampleApplication {
 				.setId(1)
 				.setFirstName("James")
 				.setLastName("Bond")
+				.setEmail("james.bond@gmail.com")
 				.addPhone(AddressBook.Student.PhoneNumber.newBuilder()
 						.setNumber("007")
 						.setType(AddressBook.Student.PhoneType.MOBILE))
@@ -58,6 +60,7 @@ public class SpringBootExampleApplication {
 				.setId(2)
 				.setFirstName("Bob")
 				.setLastName("Sponge")
+				.setEmail("bob.sponge@gmail.com")
 				.addPhone(AddressBook.Student.PhoneNumber.newBuilder()
 						.setNumber("000")
 						.setType(AddressBook.Student.PhoneType.MOBILE))
