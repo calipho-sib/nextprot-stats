@@ -37,7 +37,8 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <!-- Spring Test, JUnit, Hamcrest, and Mockito automatically included -->
+        <!-- Spring Test, JUnit, Hamcrest, and Mockito automatically included
+        https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
